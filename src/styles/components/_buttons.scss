@@ -1,15 +1,16 @@
 @use '../variables';
 
-.buttons {
+.button {
     padding: 12px;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
+    border-radius: 20px;
 
     &--primary {
-        color: variables.$textColor;
+        color: variables.$secondaryTextColor;
         background-color: variables.$purple;
     }
 
